@@ -130,7 +130,7 @@ const Signup = () => {
                 />
 
                 <input
-                  className='Btn'
+                  className='BtnC'
                   type='submit'
                   value={loading ? 'Creating Account...' : 'Create Account'}
                   disabled={loading}
