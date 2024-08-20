@@ -251,9 +251,8 @@ ul .a:hover {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 1rem;
-    align-items: center;
 }
 
 .Log-Sign-Con button {
@@ -275,8 +274,11 @@ ul .a:hover {
 .Sign {
     border-radius: 10px;
     background-color: rgba(0, 168, 89, 1);
-    height: 2rem;
-    width: 20rem;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    height: auto;
+    /* width: 20rem; */
     color: white;
 }
 
